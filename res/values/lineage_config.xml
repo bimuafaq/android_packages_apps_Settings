@@ -50,4 +50,6 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <bool name="config_enableSmartCharging">true</bool>
 </resources>
