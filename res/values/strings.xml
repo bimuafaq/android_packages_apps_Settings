@@ -647,6 +647,9 @@
     <!-- Text shown for the description of the lockdown option -->
     <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, biometric unlocking, and notifications on the lock screen</string>
 
+    <string name="auto_reboot_title">Auto reboot</string>
+    <string name="auto_reboot_summary">Automatically reboot the device, if the phone hasn\'t been unlocked within the selected number of hours.</string>
+
     <!-- Text shown for the title of the lock when trust lost option [CHAR LIMIT=40] -->
     <string name="trust_lost_locks_screen_title">Lock screen when trust is lost</string>
     <!-- Text shown for the description of the lock when trust lost option [CHAR LIMIT=NONE -->
