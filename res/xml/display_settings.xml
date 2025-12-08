@@ -207,4 +207,25 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <PreferenceCategory
+        android:key="qs_scrim_category"
+        android:title="@string/qs_scrim_category_title">
+
+        <EditTextPreference
+            android:key="system_qs_scrim_hex"
+            android:title="@string/qs_scrim_color_title"
+            android:summary="@string/qs_scrim_color_summary"
+            android:defaultValue="#FF202024"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true" />
+
+        <com.android.settings.widget.SeekBarPreference
+            android:key="system_qs_scrim_alpha"
+            android:title="@string/qs_scrim_alpha_title"
+            android:defaultValue="216"
+            android:max="255"
+            android:min="0" />
+            
+    </PreferenceCategory>
+
 </PreferenceScreen>
