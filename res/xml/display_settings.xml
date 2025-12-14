@@ -207,6 +207,14 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <ListPreference
+        android:key="system_animation_style"
+        android:title="@string/system_animation_style_title"
+        android:summary="%s"
+        android:entries="@array/system_animation_style_entries"
+        android:entryValues="@array/system_animation_style_values"
+        android:defaultValue="0" />
+
     <PreferenceCategory
         android:key="qs_scrim_category"
         android:title="@string/qs_scrim_category_title">

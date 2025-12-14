@@ -34,4 +34,20 @@
 
     <!-- Whether to show peak refresh rate in display settings -->
     <bool name="config_show_peak_refresh_rate_switch">false</bool>
+
+    <!-- Transition Animations -->
+    <string name="system_animation_style_title">System Transition Animation</string>
+    <string name="system_animation_style_summary">Customize the activity transition animations</string>
+
+    <string-array name="system_animation_style_entries">
+        <item>Default (AOSP)</item>
+        <item>Android P Style</item>
+        <item>Android T Style</item>
+    </string-array>
+
+    <string-array name="system_animation_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

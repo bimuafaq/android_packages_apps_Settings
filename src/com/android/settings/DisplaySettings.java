@@ -34,6 +34,7 @@ import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.ScrimColorPreferenceController;
 import com.android.settings.display.ScrimAlphaPreferenceController;
+import com.android.settings.display.SystemAnimationStylePreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -99,6 +100,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ScrimColorPreferenceController(context));
         controllers.add(new ScrimAlphaPreferenceController(context));
+        controllers.add(new SystemAnimationStylePreferenceController(context, "system_animation_style"));
         return controllers;
     }
 
