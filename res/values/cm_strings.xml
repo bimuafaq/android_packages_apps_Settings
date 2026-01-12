@@ -189,4 +189,7 @@
     <string name="qs_scrim_color_summary">Enter hex #RRGGBB or #AARRGGBB</string>
     <string name="qs_scrim_alpha_title">Scrim Transparency</string>
     <string name="qs_scrim_hex_error">Invalid format! Use #RRGGBB or #AARRGGBB</string>
+
+    <string name="rotation_suggestions_title">Rotation suggestions</string>
+    <string name="rotation_suggestions_summary">Show a button to rotate screen when device is turned</string>
 </resources>

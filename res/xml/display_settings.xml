@@ -233,7 +233,13 @@
             android:defaultValue="216"
             android:max="255"
             android:min="0" />
-            
+
     </PreferenceCategory>
+
+    <SwitchPreference
+        android:key="show_rotation_suggestions"
+        android:title="@string/rotation_suggestions_title"
+        android:summary="@string/rotation_suggestions_summary"
+        settings:controller="com.android.settings.display.RotationSuggestionsPreferenceController" />
 
 </PreferenceScreen>
